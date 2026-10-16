@@ -1,0 +1,17 @@
+:project:
+  :build_root: build
+  :use_exceptions: FALSE
+  :use_mocks: TRUE
+
+:paths:
+  :source:
+    - src/**
+  :include:
+    - src/**
+  :test:
+    - test/**
+
+:defines:
+  :test:
+    - TEST
+    - "HAL_GetTick()=300"
